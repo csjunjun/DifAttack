@@ -7,3 +7,7 @@ Please download the test set and model weights from [GoogleDrive](https://drive.
 ## Black-box attack
 Run the test.py to generate adversarial examples from ImageNet.
 
+
+## Acknowledgements
+Part of the code is based on [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb).
+
