@@ -228,8 +228,7 @@ if __name__ == "__main__":
     'target_label':torch.tensor([864]).cuda(),
     #target_label=torch.tensor([776]).cuda()
     'target_netname':'Resnet18',
-    #'modelp':'./PretrainModels/ckpt.pth.tar'
-    'modelp':'/data/junliu/weights/deCouplingAttack/PretrainModelsImageNetMultiConv_resume/AE_model_imagerecWeight_2_45400.pth.tar'
+    'modelp':'./PretrainModels/ckpt.pth.tar'
     }
     print("para_dict for training ImageNet:{}".format(para_dict))
 
