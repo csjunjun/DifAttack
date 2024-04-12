@@ -17,3 +17,17 @@ Run the test.py to generate adversarial examples from ImageNet.
 ## Acknowledgements
 Part of the code is based on [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb).
 
+## Citation
+If you find this work useful for your research, you can cite:
+@inproceedings{JunDifAttack2024,
+  title={DifAttack: Query-Efficient Black-Box Attack via Disentangled Feature Space},
+  author={Liu, Jun and Zhou, Jiantao and Zeng, Jiandian and Tian, Jinyu},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={4}, 
+  pages={3666-3674} ,
+   year={2024}, 
+   month={Mar.}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/28156}, 
+    DOI={10.1609/aaai.v38i4.28156}
+}
