@@ -1,0 +1,20 @@
+refs={
+  "VGG16":"SqueezeNet,GoogleNet,ResNet18",
+    "SqueezeNet":"VGG16,GoogleNet,ResNet18",
+    "GoogleNet":"SqueezeNet,VGG16,ResNet18",
+    "ResNet18":"SqueezeNet,GoogleNet,VGG16",
+    "SwinV2T":"ConvNextBase,EfficientB3,ResNet101",
+    "ConvNextBase":"SwinV2T,EfficientB3,ResNet101",
+    "EfficientB3":"ConvNextBase,SwinV2T,ResNet101",
+    "ResNet101":"ConvNextBase,EfficientB3,SwinV2T", 
+}
+popdict={
+    "VGG16":[5,8],
+    "SqueezeNet":[5,10],
+    "GoogleNet":[5,10],
+    "ResNet18":[5,8],
+    "SwinV2T":[10,15],
+    "ConvNextBase":[5,15],
+    "EfficientB3":[12,20],
+    "ResNet101":[10,18],
+}
