@@ -13,14 +13,19 @@ The model weights for DifAttack can be downloaded from [GoogleDrive](https://dri
 
 ## Train autoencoders for image reconstruction and feature disentanglement:
 set mode="train" in main.py
+```
 Python main.py
+```
 
 ## Perform black-box attack
 set mode="test" in main.py
+```
 Python main.py
+```
 
 ## Acknowledgements
-Part of the code is partially derived from [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb).
+Part of the code is partially derived from [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb) and [Github](https://github.com/Harry24k/adversarial-attacks-pytorch/tree/master).
+
 
 ## Citation
 If you find this work useful for your research, you can cite:
