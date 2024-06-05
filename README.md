@@ -24,7 +24,7 @@ Python main.py
 ```
 
 ## Acknowledgements
-Part of the code is partially derived from [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb) and [Github](https://github.com/Harry24k/adversarial-attacks-pytorch/tree/master).
+Part of the code is partially derived from ImageReconstruction [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb) and torchattacks [Github](https://github.com/Harry24k/adversarial-attacks-pytorch/tree/master).
 
 
 ## Citation
