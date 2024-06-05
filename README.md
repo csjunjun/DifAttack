@@ -1,21 +1,25 @@
 # DifAttack
-The official code for the paper titled as "DifAttack: Query-Efficient Black-Box Attack via Disentangled Feature Space", accepted by AAAI 2024.
+The official code for the paper titled as "DifAttack++: Query-Efficient Black-Box Adversarial Attack via Hierarchical Disentangled Feature Space in Cross Domain". It will be available soon in arxiv.
+
+Our previous conference version called "DifAttack: Query-Efficient Black-Box Attack via Disentangled Feature Space" has been accepted by AAAI 2024.
 The supplementary file is available at our [Arxiv](https://arxiv.org/abs/2309.14585) version.
 
-![Overview](https://github.com/csjunjun/DifAttack/blob/master/Overview.png)
+![Overview](https://github.com/csjunjun/DifAttack/blob/master/Architecture.png)
 
 ## Setup
-Please download the test set and model weights from [GoogleDrive](https://drive.google.com/drive/folders/1o4yPWxAC575PT_mQSxV4d7BCLCbC2oRV?usp=sharing).
+Please download the test set and model weights of DifAttack++ from [GoogleDrive](https://drive.google.com/drive/folders/1gCOxEwJGPO_tKKLPldRsRFCAtgOM40K5?usp=sharing).
+The model weights for DifAttack can be downloaded from [GoogleDrive](https://drive.google.com/drive/folders/1o4yPWxAC575PT_mQSxV4d7BCLCbC2oRV?usp=sharing).
 
-## Train the autoencoder
-Run the train.py.
+## Train autoencoders for image reconstruction and feature disentanglement:
+set mode="train" in main.py
+Python main.py
 
-## Black-box attack
-Run the test.py to generate adversarial examples from ImageNet.
-
+## Perform black-box attack
+set mode="test" in main.py
+Python main.py
 
 ## Acknowledgements
-Part of the code is based on [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb).
+Part of the code is partially derived from [Github](https://github.com/SikanderBinMukaram/ImageReconstructionAutoEncoder/blob/main/ImageReconstruction.ipynb).
 
 ## Citation
 If you find this work useful for your research, you can cite:
