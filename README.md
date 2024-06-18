@@ -42,3 +42,13 @@ month={Mar.},
 url={https://ojs.aaai.org/index.php/AAAI/article/view/28156}, 
 DOI={10.1609/aaai.v38i4.28156}
 }```
+
+
+```
+@article{liu2024difattack++,
+  title={DifAttack++: Query-Efficient Black-Box Adversarial Attack via Hierarchical Disentangled Feature Space in Cross Domain},
+  author={Liu, Jun and Zhou, Jiantao and Zeng, Jiandian and Tian, Jinyu},
+  journal={arXiv preprint arXiv:2406.03017},
+  year={2024}
+}
+```
