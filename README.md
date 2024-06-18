@@ -41,9 +41,10 @@ year={2024},
 month={Mar.}, 
 url={https://ojs.aaai.org/index.php/AAAI/article/view/28156}, 
 DOI={10.1609/aaai.v38i4.28156}
-}```
+}
+```
 
-## Citation
+
 ```
 @article{liu2024difattack++,
   title={DifAttack++: Query-Efficient Black-Box Adversarial Attack via Hierarchical Disentangled Feature Space in Cross Domain},
