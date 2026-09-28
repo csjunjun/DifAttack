@@ -1,4 +1,4 @@
-# DifAttack
+# DifAttack (AAAI 2024)
 The official code for the improved version titled as "DifAttack++: Query-Efficient Black-Box Adversarial Attack via Hierarchical Disentangled Feature Space in Cross Domain". It is available in [TDSC 2026](https://ieeexplore.ieee.org/document/11663277/) and [GitHub](https://github.com/csjunjun/DifAttackPlus).
 
 Our previous conference version called "DifAttack: Query-Efficient Black-Box Attack via Disentangled Feature Space" has been accepted by AAAI 2024.
